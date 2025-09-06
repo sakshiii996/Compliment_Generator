@@ -132,7 +132,7 @@ speakBtn.addEventListener("click", () => {
 favBtn.addEventListener("click", () => {
     const text = complimentText.textContent.trim();
     const category = complimentText.getAttribute("data-category");
-    if (text === "" || text === "Choose a category & click \"New Compliment\" ✨") return;
+    if (text === "" || text === "Choose a category & click New Compliment ✨") return;
     if(!favourites.includes(text)){
         favourites.push(text);
     
@@ -148,7 +148,7 @@ favBtn.addEventListener("click", () => {
 // Share modal
 shareBtn.addEventListener("click", () => {
     const text = complimentText.textContent;
-    if (text === "Choose a category & click \"New Compliment\"✨") {
+    if (text === "Choose a category & click New Compliment ✨") {
         alert("Please generate a compliment first !");
         return;
     }
@@ -189,4 +189,5 @@ DarkModeBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark");
 
 });
+
 
