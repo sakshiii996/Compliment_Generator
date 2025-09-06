@@ -160,11 +160,19 @@ shareBtn.addEventListener("click", () => {
     modal.classList.add("active");
 });
 
-copyBtn.addEventListener("click", () => {
-    shareInput.select();
-    document.execCommand("copy");
-    copyBtn.textContent = "Copied!";
-    setTimeout(() => copyBtn.textContent = "Copy", 1500);
+copyBtn.addEventListener("click", async () => {
+    try {
+        await navigator.clipboard.writeText(shareInput.value);
+        copyBtn.textContent = "Copied!";
+        setTimeout(() => copyBtn.textContent = "Copy", 1500);
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+        // Fallback for browsers that don't support clipboard API
+        shareInput.select();
+        document.execCommand("copy");
+        copyBtn.textContent = "Copied!";
+        setTimeout(() => copyBtn.textContent = "Copy", 1500);
+    }
 });
 
 closeBtn.addEventListener("click", () => {
@@ -175,4 +183,5 @@ closeBtn.addEventListener("click", () => {
 
 DarkModeBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark");
+
 });
