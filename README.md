@@ -5,7 +5,7 @@ Built as part of my college competition project – “Unbox”.
 
 🌐 Live Demo
 
-🔗 View Project on Vercel
+🔗 View Project on Vercel : https://compliment-generator-kappa.vercel.app/
 
 ⚙️ Tech Stack
 
