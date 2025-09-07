@@ -1,82 +1,79 @@
+✨ Compliment Generator ✨
 
-# Compliment Generator
+A fun, interactive web app that generates compliments across multiple categories with features like Text-to-Speech, Favourites, Share Modal, and Dark Mode.
+Built as part of my college competition project – “Unbox”.
 
-**Tech Stack:** HTML | CSS | JavaScript (Vanilla)
+🌐 Live Demo
 
-A charming, old-school-styled web app that delivers random compliments across various categories—romantic, funny, motivational, friendly—complete with features like voice narration, favorites management, shareable links via a custom modal, and dark mode.
+🔗 View Project on Vercel
 
----
+⚙️ Tech Stack
 
-## Features
+HTML5 – Structure
 
-* **Category-Based Compliments**
-  Choose from multiple categories before generating a compliment (e.g., Romantic, Funny, Motivational, Friendly).
+CSS3 – Styling (old-school aesthetic with washi tape + paper effect)
 
-* **Random Generation**
-  Hit the **New Compliment** button to display a fresh, randomly selected compliment from the chosen category.
+Vanilla JavaScript – Functionality & DOM manipulation
 
-* **Text-to-Speech**
-  Hear the compliment aloud via the **Speak** button—leveraging the Web Speech API.
+Web APIs – Speech Synthesis, Clipboard API
 
-* **Favorites Management**
-  Save your favorite compliments to the **Favourites** panel; duplicate entries are prevented for a cleaner UX.
+🎯 Features
 
-* **Share Modal**
-  Click **Share** to open a modal where you can:
+✅ Category-based compliments – Romantic ❤️, Funny 😂, Motivational 🎯, Friendly 🌸
+✅ Random compliment generator – New compliment every click
+✅ Text-to-Speech – Hear the compliment aloud
+✅ Favourites bar – Save favourites, prevents duplicates ⭐
+✅ Share Modal – Copy to clipboard or share via WhatsApp, Instagram, Twitter, LinkedIn
+✅ Dark Mode toggle – Switch themes seamlessly 🌙
+✅ Responsive design – Works on desktop, tablet, and mobile
 
-  * Copy the compliment to clipboard with one click.
-  * Share directly on WhatsApp, Instagram, Twitter, or LinkedIn via pre-filled links.
+📸 Screenshots
 
-* **Dark Mode**
-  Toggle between light and dark themes using the **Dark Mode** button.
+## Home Page ##
+![Home]([https://user-images.githubusercontent.com/.../screenshot.png](https://github.com/sakshiii996/Compliment_Generator/blob/cd20dbcd80359e1c591eb369e9f893748516402a/home.png))
 
-* **Responsive Design**
-  The layout adapts gracefully across devices—mobile, tablet, and desktop.
+## Share Modal ##
+![Home]([(https://user-images.githubusercontent.com/.../screenshot.png)](https://github.com/sakshiii996/Compliment_Generator/blob/cd20dbcd80359e1c591eb369e9f893748516402a/share.png
+)
 
----
+## Dark Mode ##
+![Home]([(https://user-images.githubusercontent.com/.../screenshot.png)](https://github.com/sakshiii996/Compliment_Generator/blob/cd20dbcd80359e1c591eb369e9f893748516402a/dark.png))
 
-## Code Breakdown
+🚀 Getting Started
 
-### HTML (`index.html`)
+Clone this repository
 
-* Wrapped inside `.complimentBox`, featuring a paper-like aesthetic with a washi-tape header.
-* Contains elements for category selection, compliment display, action buttons, and the favourites bar.
-* Includes the share modal template (hidden by default).
+git clone https://github.com/your-username/compliment-generator.git
+cd compliment-generator
 
-### CSS (`compli.css`)
 
-* Old-school, cozy aesthetics: dashed paper borders, vintage color palette, typewriter-like font.
-* Smooth transitions for modal scaling and theme toggles.
-* Media queries ensure compatibility on all screen sizes.
+Open the project
+Simply open index.html in your browser.
 
-### JavaScript (`compli.js`)
+Deploy (optional)
+Deploy easily using Vercel
+ or Netlify
+.
 
-* **Selectors & Data:** Targets DOM elements and stores compliments grouped by category.
-* **Event Handling:**
+📌 Roadmap / Future Enhancements
 
-  * **New Compliment:** Picks a random compliment from the selected category.
-  * **Speak:** Uses `SpeechSynthesisUtterance`.
-  * **Favorites:** Stores unique items and prevents duplicates.
-  * **Share Modal:** Populates modal with the compliment, sets up social sharing URLs using `encodeURIComponent()`, handles copy-to-clipboard and closing interactions.
-  * **Dark Mode:** Toggles a CSS class for theme switch.
+ Add option to remove compliments from favourites
 
----
+ Save favourites in localStorage (so they persist after refresh)
 
-## Why It Stands Out
+ Add more categories (e.g., Professional, Cheesy 😅)
 
-* **Thoughtful UX**: Smooth animations, intuitive action flows, and clear user feedback (e.g., “Copied!”).
-* **Modular & Clean Code**: Files are separated logically, making maintenance and enhancements straightforward.
-* **Feature-Rich Yet Lightweight**: No heavy frameworks—just lean, vanilla JS delivering full functionality.
-* **Shareability Built-In**: Seamless integration with social platforms encourages user engagement.
+ Confetti animation when a compliment is generated 🎉
 
----
+ Accessibility improvements (keyboard navigation + ARIA labels)
 
-## Future Enhancements
+👩‍💻 Author
+Sakshi Subhash Kadam
 
-* Add **emoji icons** next to category options.
-* Enable **removing items** from the favorites list.
-* Introduce **animations** like gentle confetti when a new compliment appears.
-* Enhance accessibility support (e.g., better ARIA labels, keyboard navigation).
-* Add **persistence** using `localStorage` so favorites remain across sessions.
+LinkedIn: www.linkedin.com/in/sakshi-kadam-3a1675321
+
+⭐ Contribute / Support
+
+If you like this project, please ⭐ the repo and share it! Feedback and suggestions are always welcome 🙌
 
 
