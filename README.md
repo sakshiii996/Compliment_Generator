@@ -13,7 +13,7 @@ HTML5 – Structure
 
 CSS3 – Styling (old-school aesthetic with washi tape + paper effect)
 
-Vanilla JavaScript – Functionality & DOM manipulation
+JavaScript – Functionality & DOM manipulation
 
 Web APIs – Speech Synthesis, Clipboard API
 
@@ -30,14 +30,13 @@ Web APIs – Speech Synthesis, Clipboard API
 📸 Screenshots
 
 ## Home Page ##
-![Home]([https://user-images.githubusercontent.com/.../screenshot.png](https://github.com/sakshiii996/Compliment_Generator/blob/cd20dbcd80359e1c591eb369e9f893748516402a/home.png))
+![Home](https://github.com/sakshiii996/Compliment_Generator/blob/main/home.png?raw=true)
 
 ## Share Modal ##
-![Home]([(https://user-images.githubusercontent.com/.../screenshot.png)](https://github.com/sakshiii996/Compliment_Generator/blob/cd20dbcd80359e1c591eb369e9f893748516402a/share.png
-)
+![Home](https://github.com/sakshiii996/Compliment_Generator/blob/main/share.png?raw=true)
 
 ## Dark Mode ##
-![Home]([(https://user-images.githubusercontent.com/.../screenshot.png)](https://github.com/sakshiii996/Compliment_Generator/blob/cd20dbcd80359e1c591eb369e9f893748516402a/dark.png))
+![Home](https://github.com/sakshiii996/Compliment_Generator/blob/main/dark.png?raw=true)
 
 🚀 Getting Started
 
